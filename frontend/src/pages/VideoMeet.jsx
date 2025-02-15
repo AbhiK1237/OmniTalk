@@ -15,7 +15,7 @@ import ChatIcon from "@mui/icons-material/Chat";
 import { io } from "socket.io-client";
 import { Badge, IconButton } from "@mui/material";
 
-const serverUrl = "http://localhost:3000";
+const serverUrl = "https://omnitalk-production-de73.up.railway.app/";
 let connections = {};
 
 const peerConfigConnections = {
